@@ -32,9 +32,10 @@ const [gameTurns, setGameTurns] = useState([]);
       <GameBoard 
       onSelectSquare={handleSelectSquare} 
       turns={gameTurns}/>
-      <Log
-      turns={gameTurns}/>
+      
     </div>
+    <Log
+      turns={gameTurns}/>
   </main>;
 }
 
